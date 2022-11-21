@@ -1,0 +1,43 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.full-todo {
+    display: flex;
+    width: 50%;
+    background-color: lightcoral;
+    padding: 10px 110px;
+    border: 1px solid black;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.buttons {
+    width: 150px;
+}
+
+.buttons-delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: -9px 16px 12px 16px;
+  }
+
+  .buttons-delete:hover {
+    background-color: lightcoral
+  }
+
+.completed {
+    background-color: lightgreen;
+}
